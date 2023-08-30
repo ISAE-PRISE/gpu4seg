@@ -18,9 +18,17 @@ Please note that the code and data publicly released in this repository is a sub
    
 2. stb libraries for importing and exporting images. Git: https://github.com/nothings/stb
 
-3. Datasets. UAVID and UDD were used. The released testing code is configured for UAVID. FOr this dataset, the static and moving cars were assumed to belong to the same class. 
+3. Datasets. UAVID and UDD were used. The released testing code is configured for UAVID. For this dataset, the static and moving cars were assumed to belong to the same class. 
 
 4. Binary files with the filter weights and normalization values. The training was performed using Pytorch.
+
+## Binary files (pre-trained models)
+
+The binary files for the pre-trained model are available on the ISAE-SUPAERO Dataverse for the PRISE project. There are two archives (UDD6 and UAVID datasets) which contain the binary files for Segnet architectures 1, 2, 3, 4, 6, 8 and 9.
+
+UAVID : https://doi.org/10.34849/2K7NOZ
+
+UDD6  : https://doi.org/10.34849/6EOIV0
 
 
 ## Authors
